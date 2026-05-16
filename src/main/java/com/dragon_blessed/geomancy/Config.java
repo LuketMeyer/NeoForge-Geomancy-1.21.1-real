@@ -1,4 +1,4 @@
-package com.example.examplemod;
+package com.dragon_blessed.geomancy;
 
 import java.util.List;
 import java.util.Set;
