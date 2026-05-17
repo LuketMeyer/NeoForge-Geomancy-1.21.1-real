@@ -6,6 +6,8 @@
   "item.geomancymod.doodad": "Doodad",
   "item.geomancymod.sparking_doodad": "Sparking Doodad",
 
+  "block.geomancymod.inverted_grass": "Inverted Grass Block",
+
   "examplemod.configuration.title": "Example Mod Configs",
   "examplemod.configuration.section.examplemod.common.toml": "Example Mod Configs",
   "examplemod.configuration.section.examplemod.common.toml.title": "Example Mod Configs",
