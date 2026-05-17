@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "": {
+            "model": "geomancymod:block/inverted_grass"
+        }
+    }
+}

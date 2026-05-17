@@ -78,6 +78,10 @@ public class Geomancy {
             event.accept(ModItems.SPARKING_DOODAD);
         }
 
+        if( event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS ) {
+            event.accept(ModBlocks.INVERTED_GRASS);
+        }
+
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
