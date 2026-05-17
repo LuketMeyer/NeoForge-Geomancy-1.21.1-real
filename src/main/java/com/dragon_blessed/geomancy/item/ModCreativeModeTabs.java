@@ -3,9 +3,11 @@ package com.dragon_blessed.geomancy.item;
 import java.util.function.Supplier;
 
 import com.dragon_blessed.geomancy.Geomancy;
+import com.dragon_blessed.geomancy.block.ModBlocks;
 
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.neoforged.bus.api.IEventBus;
@@ -20,10 +22,20 @@ public class ModCreativeModeTabs {
 
     public static final Supplier<CreativeModeTab> DOODAD_ITEMS_TAB = CREATIVE_MODE_TAB.register( "doodad_items_tab",
         () -> CreativeModeTab.builder().icon( () -> new ItemStack(ModItems.DOODAD.get()))
-        .title( Component.translatable("creativetab.geomancy.doodad_items") )
+        .title( Component.translatable("creativetab.geomancymod.doodad_items") )
         .displayItems( (itemDisplayParameters, output) -> {
             output.accept(ModItems.DOODAD);
             output.accept( ModItems.SPARKING_DOODAD);
+
+        } ).build()
+    );
+
+    public static final Supplier<CreativeModeTab> DOODAD_BLOCKS_TAB = CREATIVE_MODE_TAB.register( "doodad_blocks_tab",
+        () -> CreativeModeTab.builder().icon( () -> new ItemStack(ModBlocks.INVERTED_GRASS))
+        .withTabsBefore(ResourceLocation.fromNamespaceAndPath(Geomancy.MODID, "doodad_items_tab"))
+        .title( Component.translatable("creativetab.geomancymod.doodad_blocks") )
+        .displayItems( (itemDisplayParameters, output) -> {
+            output.accept(ModBlocks.INVERTED_GRASS);
 
         } ).build()
     );

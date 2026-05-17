@@ -8,6 +8,10 @@
 
   "block.geomancymod.inverted_grass": "Inverted Grass Block",
 
+  "creativetab.geomancymod.doodad_items": "Doodad Items",
+  "creativetab.geomancymod.doodad_blocks": "Doodad Blocks",
+
+
   "examplemod.configuration.title": "Example Mod Configs",
   "examplemod.configuration.section.examplemod.common.toml": "Example Mod Configs",
   "examplemod.configuration.section.examplemod.common.toml.title": "Example Mod Configs",
