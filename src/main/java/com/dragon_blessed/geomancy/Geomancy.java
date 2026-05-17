@@ -75,6 +75,10 @@ public class Geomancy {
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
 
+        /*
+
+        old temporary tab insertions
+
         if( event.getTabKey() == CreativeModeTabs.INGREDIENTS ) {
             event.accept(ModItems.DOODAD);
             event.accept(ModItems.SPARKING_DOODAD);
@@ -83,6 +87,7 @@ public class Geomancy {
         if( event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS ) {
             event.accept(ModBlocks.INVERTED_GRASS);
         }
+        */
 
     }
 
