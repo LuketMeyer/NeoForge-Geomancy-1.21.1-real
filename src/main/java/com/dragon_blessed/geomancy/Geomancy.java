@@ -2,6 +2,7 @@ package com.dragon_blessed.geomancy;
 
 import org.slf4j.Logger;
 
+import com.dragon_blessed.geomancy.block.ModBlocks;
 import com.dragon_blessed.geomancy.item.ModItems;
 import com.mojang.logging.LogUtils;
 
@@ -56,6 +57,7 @@ public class Geomancy {
 
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
