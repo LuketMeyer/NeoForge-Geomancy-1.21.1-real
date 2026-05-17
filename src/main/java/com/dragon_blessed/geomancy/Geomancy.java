@@ -3,6 +3,7 @@ package com.dragon_blessed.geomancy;
 import org.slf4j.Logger;
 
 import com.dragon_blessed.geomancy.block.ModBlocks;
+import com.dragon_blessed.geomancy.item.ModCreativeModeTabs;
 import com.dragon_blessed.geomancy.item.ModItems;
 import com.mojang.logging.LogUtils;
 
@@ -55,6 +56,7 @@ public class Geomancy {
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
 
+        ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
