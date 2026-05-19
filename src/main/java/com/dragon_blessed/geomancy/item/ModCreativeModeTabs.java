@@ -38,6 +38,7 @@ public class ModCreativeModeTabs {
         .displayItems( (itemDisplayParameters, output) -> {
             output.accept(ModBlocks.INVERTED_GRASS);
             output.accept(ModBlocks.ODD_ORE);
+            output.accept(ModBlocks.ODD_BLOCK);
 
         } ).build()
     );
