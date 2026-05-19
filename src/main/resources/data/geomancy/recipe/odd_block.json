@@ -1,0 +1,24 @@
+{
+
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "A": {
+            "item": "geomancymod:odd_gem"
+        }
+    },
+
+    "pattern": [
+
+        "AAA",
+        "AAA",
+        "AAA"
+
+    ],
+
+    "result": {
+        "count": 1,
+        "id": "geomancymod:odd_block"
+    }
+
+}
