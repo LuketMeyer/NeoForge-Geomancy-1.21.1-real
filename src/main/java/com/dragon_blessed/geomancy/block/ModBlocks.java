@@ -25,6 +25,11 @@ public class ModBlocks {
                 .strength(4f).requiresCorrectToolForDrops().sound( SoundType.BIG_DRIPLEAF))
     );
 
+    public static final DeferredBlock<Block> ODD_ORE = registerBlock( "odd_ore", 
+            () -> new Block(BlockBehaviour.Properties.of()
+                .strength(4f).requiresCorrectToolForDrops().sound( SoundType.BIG_DRIPLEAF))
+    );
+
 
 
     private static <T extends Block> DeferredBlock<T> registerBlock( String name, Supplier<T> block) {

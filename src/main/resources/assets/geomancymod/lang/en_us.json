@@ -5,8 +5,10 @@
 
   "item.geomancymod.doodad": "Doodad",
   "item.geomancymod.sparking_doodad": "Sparking Doodad",
+  "item.geomancymod.odd_gem": "Odd Gem",
 
   "block.geomancymod.inverted_grass": "Inverted Grass Block",
+  "block.geomancymod.odd_ore": "Odd Ore",
 
   "creativetab.geomancymod.doodad_items": "Doodad Items",
   "creativetab.geomancymod.doodad_blocks": "Doodad Blocks",

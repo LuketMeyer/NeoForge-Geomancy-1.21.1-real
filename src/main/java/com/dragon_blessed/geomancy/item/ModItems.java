@@ -21,6 +21,10 @@ public class ModItems {
         () -> new Item(new Item.Properties() )
     );
 
+    public static final DeferredItem<Item> ODD_GEM = ITEMS.register( "odd_gem", 
+        () -> new Item(new Item.Properties() )
+    );
+
     public static void register(IEventBus eventBus ) {
         ITEMS.register( eventBus );
     }

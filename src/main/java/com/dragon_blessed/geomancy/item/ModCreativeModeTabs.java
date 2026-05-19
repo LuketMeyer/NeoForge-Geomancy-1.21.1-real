@@ -26,6 +26,7 @@ public class ModCreativeModeTabs {
         .displayItems( (itemDisplayParameters, output) -> {
             output.accept(ModItems.DOODAD);
             output.accept( ModItems.SPARKING_DOODAD);
+            output.accept( ModItems.ODD_GEM );
 
         } ).build()
     );
@@ -36,6 +37,7 @@ public class ModCreativeModeTabs {
         .title( Component.translatable("creativetab.geomancymod.doodad_blocks") )
         .displayItems( (itemDisplayParameters, output) -> {
             output.accept(ModBlocks.INVERTED_GRASS);
+            output.accept(ModBlocks.ODD_ORE);
 
         } ).build()
     );
