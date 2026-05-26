@@ -1,0 +1,9 @@
+{
+    
+    "replace": false,
+    "values" : [
+        "geomancymod:odd_block",
+        "geomancymod:odd_ore"
+    ]
+
+}

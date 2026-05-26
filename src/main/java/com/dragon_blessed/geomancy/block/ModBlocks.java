@@ -22,17 +22,17 @@ public class ModBlocks {
 
     public static final DeferredBlock<Block> INVERTED_GRASS = registerBlock( "inverted_grass", 
             () -> new Block(BlockBehaviour.Properties.of()
-                .strength(4f).requiresCorrectToolForDrops().sound( SoundType.BIG_DRIPLEAF))
+                .strength(2f).sound( SoundType.BIG_DRIPLEAF))
     );
 
     public static final DeferredBlock<Block> ODD_ORE = registerBlock( "odd_ore", 
             () -> new Block(BlockBehaviour.Properties.of()
-                .strength(4f).requiresCorrectToolForDrops().sound( SoundType.BIG_DRIPLEAF))
+                .strength(3f).requiresCorrectToolForDrops().sound( SoundType.BIG_DRIPLEAF))
     );
 
     public static final DeferredBlock<Block> ODD_BLOCK = registerBlock( "odd_block", 
             () -> new Block(BlockBehaviour.Properties.of()
-                .strength(4f).requiresCorrectToolForDrops().sound( SoundType.BIG_DRIPLEAF))
+                .strength(3f).requiresCorrectToolForDrops().sound( SoundType.BIG_DRIPLEAF))
     );
 
 
